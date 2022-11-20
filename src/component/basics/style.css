@@ -1,0 +1,31 @@
+/* .card-number{
+    color:black;
+    text-align:center
+} */
+*
+{
+    background-color:rgb(206, 183, 206)
+}
+
+.card-body
+{
+    background-color:whitesmoke;
+
+}
+.card-container
+{
+    background-color:whitesmoke;
+    width:40%;
+    color:black;
+    /* text-align:center */
+}
+.card-description
+{
+    color:blue;
+
+    font-style:normal
+}
+.card-read
+{
+    text-align:right;
+}

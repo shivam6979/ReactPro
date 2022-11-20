@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import UseState from "./component/hooks/useState";
+// import UseEffect from "./component/hooks/useEffect";
+import UseReducer from "./component/hooks/useReducer";
+// import Todo from "./component/todoreact/todo"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// import Resturent from "./component/basics/resturent"  //if written default before expoting Resturent
+// import {Resturent} from "./component/basics/resturent" // if default is not written
+
+
+const App =()=>{
+  return(
+    <div>
+      {/* <Resturent/> */}
+      {/* <UseState/> */}
+      {/* <UseEffect/> */}
+      <UseReducer/>
+      {/* <Todo/> */}
+
     </div>
-  );
+  )
+
 }
 
-export default App;
+export default App
